@@ -87,7 +87,7 @@
   * But you have to manage the memory manually, please free the memory allocation manually when you don't need it.
   * If you free the same memory multiple times, your program will crash.
   * When using `Fiber`, please use it with `Channel` (It will protect you from free the same memory multiple times).
-* `Travis-CI` appears to be malfunctioning and this repository cannot be detected.
+* <del>`Travis-CI` appears to be malfunctioning and this repository cannot be detected.</del>
 * <del>For a better future of the project, I decided to change the `MIT` license to the `GPLv3` license.</del>
 
 ## Next
@@ -100,7 +100,7 @@
 
 ## Usage
 
-* Simple Mitm Server (Need to be used with [Orange.cr](https://github.com/64726f70/orange.cr))
+* Simple Mitm Server (Need to be used with [Orange.cr](https://github.com/636f7374/orange.cr))
 
 ```crystal
 require "base64"
